@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!-- Template Name: Clip-Two - Responsive Admin Template build with Twitter Bootstrap 3.x | Author: ClipTheme -->
+<!--[if IE 8]><html class="ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- start: HEAD -->
+<!-- start: HEAD -->
+
+<head>
+    <link rel="shortcut icon" href="assets/imgs/TapLogo.jpg" />
+    <title>Fullstack JS Models</title>
+    <!-- start: META -->
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- end: META -->
+    <!-- start: GOOGLE FONTS -->
+    <link
+        href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic"
+        rel="stylesheet" type="text/css" />
+    <!-- end: GOOGLE FONTS -->
+    <!-- start: MAIN CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+    <!-- start: CLIP-TWO CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/CSS/Main.css">
+    <!-- end: CLIP-TWO CSS -->
+    <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+</head>
+<!-- end: HEAD -->
+<!-- start: BODY -->
+
+<body class="login">
+    <!-- start: LOCK SCREEN -->
+    <div class="row" id="login-form">
+        <div class="lock-screen">
+            <div class="box-ls">
+                <img alt="" src="assets/imgs/Logo.jpg" />
+                <div class="user-info">
+                    <h4>JavaScript Models</h4>
+                    <span>Enter the model passcode</span>
+                    <div class="input-group">
+                        <input type="text" placeholder="Password to unlock" class="form-control" id="formInput">
+                        <span class="input-group-btn">
+                            <button class="btn btn-primary" type="submit" onclick="return Pass()">
+                                <i class="fa fa-chevron-right"></i>
+                            </button> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--Start JS Models  -->
+    <!--Start Variables and IF statements Models  -->
+    <!-- <div id="Model-one" class="Models js-models">
+        <h1>
+            <span>Model 1: </span>
+            Write a program to print:
+            <br>
+            "Your Grade is A+" if the score is between 90 and 100
+            <br>
+            "Your Grade is B+" if the score is between 80 and 90
+            <br>
+            "Your Grade is C" if the score is between 50 and 80
+            <br>
+            "You failed" if the score is less than 50
+        </h1>
+    </div>
+    <div id="Model-two" class="Models js-models">
+        <h1>
+            <span>Model 2: </span>
+            let money = 200; <br>
+            let price = 400; <br>
+            write an <b>If..else</b> statement that can compare the money paid and price required using the given
+            amounts above, so it can show to the user one of the three messages detailed below:
+            <p><i>"You paid extra, here's your change.“ and print the change amount</i></p>
+            <p><i>"You paid the exact amount, have a nice day!"</i></p>
+            <p><i>"That's not enough, you still owe me money.” and print how much he\she owes you</i></p>
+            <b>Hint:</b> you can change the values of money and price to test the different conditions of your if
+            statement.
+            You can use a variable called <u>message</u> to print it to the console when any of the conditions is
+            applied
+        </h1>
+    </div>
+    <div id="Model-three" class="Models js-models">
+        <h1>
+            <span>Model 3: </span>
+            When you have lasagna in the oven, you want to know whether you can already take it out or not. <br>
+            To make sure the lasagna does not burn in the oven, you usually set a timer. But sometimes you forget about
+            that. <br>
+            Write a function cookingStatus with that accepts the remaining time on the timer in minutes as parameter.
+            The function has three possible results. <br>
+            <p>If the timer shows zero, it should return 'Lasagna is done.'.</p>
+            <p>If the timer shows any other number, the result should be 'Not done, please wait.'.</p>
+            <p>If the function is called without a timer value, the result should be 'You forgot to set the timer.'.</p>
+        </h1>
+    </div>
+    <div id="Model-four" class="Models js-models">
+        <h1>
+            <span>Model 4: </span>
+            Create a function that takes number from user and check if:
+            <p>The number is divided by 3 print "The number can be divided by 3".</p>
+            <p>The number is divided by 5 print "The number can be divided by 5".</p>
+            <b>Note:</b> some number can be divided by both numbers, in this case print (This number can be divided by 3
+            and 5)
+            </p>
+        </h1>
+    </div>
+    <div id="Model-five" class="Models js-models">
+        <h1>
+            <span>Model 5: </span>
+            Trying to simulate how a traffic light works. <br>
+            Create a function that receives a number from the driver and does some tests on that number.
+            <p>If it's one, print "You can go."</p>
+            <p>If it's two, print "You've got to get ready to go."</p>
+            <p>And if it's three, print "You can't go."</p>
+            </p>
+        </h1>
+    </div> -->
+    <!--End Variables and IF statements Models  -->
+
+    <!--Start Arrays and Loops Models  -->
+
+    <!-- <div id="Model-two-one" class="Models js-models">
+        <h1>
+            <span>Model 2.1: </span>
+            In a pizza shop, some customers need to change some ingredients, so you have to fulfill their demand,
+            Starting with this array of "pizza layers", change the layer of the <b>1st,</b> <b>3rd,</b> and <b>6th</b>
+            elements in the array according to what the customer wants.
+            <p>let layers = ['Sauce', 'Crust', 'Seafood', 'Cheese', 'Mushroom', 'Basil' , 'Ketchup'];</p>
+            print out the layers array to the document after changing the required elements
+        </h1>
+    </div>
+    <div id="Model-two-two" class="Models js-models">
+        <h1>
+            <span>Model 2.2: </span>
+            Monica just started her first day as a magician, she prepared some cards which have different messages, help
+            her to tell her clients what card tells them
+            Hint: The client has to pick a number from 1 to 5 as Monica has only 5 cards with 5 different messages.
+            <p><b>First card says:</b> Be positive.</p>
+            <p><b>Second card says:</b> Work hard to play harder.</p>
+            <p><b>Third card says:</b> Don't compete with anyone, wish the best of luck for everyone.</p>
+            <p><b>Fourth card says:</b> Don't die before your To-do list is empty.</p>
+            <p><b>Fifth card says:</b> Everyone has no idea how high you can fly.</p>
+            PS: when the use enter 1 it should print the 0 index element
+        </h1>
+    </div>
+    <div id="Model-two-three" class="Models js-models">
+        <h1>
+            <span>Model 2.3: </span>
+            Starting with this array of "Sentence", change the prices of the 1st, 3rd, and 7th elements in the array
+            according to your situation.
+            <p>var Sentence= [“PHP Group”, “is now studying”, “HTML”, “topic and they submitted” , “2 tasks for this
+                topic while this task is the” , “third”];</p>
+            <b>TIP:</b> The 1st element of any array has an index of 0.
+            print out the Sentence array to the document after changing the required elements.
+        </h1>
+    </div> -->
+
+    <!-- <div id="Model-two-four" class="Models js-models">
+        <h1>
+            <span>Model 2.4: </span>
+            Create a function called myFunction() that prints your name as per the given array below:
+            <p>let nameParts = ['your first name', 'second name', 'third name'];</p>
+            The function should print your name to the browser using .innerHTML to an empty <p> element. Then you should call the function when the button is clicked. 
+            <p><b>TIP:</b> don't forget to use the method document.querySelector() to call the HTML elements into the JS file</p>
+        </h1>
+    </div> -->
+    <!-- End JS Models -->
+    <!-- end: LOCK SCREEN -->
+    <script src="JS/Custom.js"></script>
+    <!-- end: JavaScript Event Handlers for this page -->
+    <!-- end: CLIP-TWO JAVASCRIPTS -->
+</body>
+<!-- end: BODY -->
+
+</html>

@@ -1,0 +1,21 @@
+.hide{
+    display: none;
+  }
+
+.Models{
+    display: none;
+}
+div.js-models {
+    margin: 10%;
+}
+div.js-models h1 span {
+    font-weight: bold;
+    display: block;
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+img {
+    border-radius: 50%;
+    box-shadow: 10px 5px 8px #eeeeee;
+    margin-bottom: 2%;
+}
